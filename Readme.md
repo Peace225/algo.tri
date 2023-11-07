@@ -1,0 +1,1 @@
+ceci est un algorithme de tri par insertion

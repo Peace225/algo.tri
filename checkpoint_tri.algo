@@ -1,0 +1,29 @@
+ALGORITHM TriParlnsertion (tableau)
+POUR i de 1 à longueur (tableau) -1
+FAIRE
+elementCourant <- tableau[i]
+j < i - 1
+TantQue j >= 0 ET tableau[j]>
+elementCourant FAIRE
+tableau [j + 1] <- tableau[j]
+j <- j- 1
+FinTanQue[j+1] <- elementCourant
+FinPOUR
+FinAlgorithme
+
+VAR
+    //Déclaration des variables 
+    tableauArtier : tableau ENTIER[5];
+    //Remplacez 5 par la taille de votre tableau
+    i : ENTIER
+BEGIN
+    //Initialisation du tableau à trier
+    tableauArtier <-[12, 11, 13, 5, 6]
+    //Appel de l'algorithme de tri par insertion
+    TriParlnsertion(tableauArtier) - 1 FAIRE
+    AFFICHER tableauArtier[i]
+    FinPOUR
+    
+END
+
+
